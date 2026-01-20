@@ -20,8 +20,7 @@
 
     <header id="home">
         <div class="hero-content">
-            <h2 id="welcome-msg">We are getting married</h2>
-            
+            <p id="welcome-msg">We are getting married</p>
             <h1>Umesha & Abhisheka</h1>
             <p class="date">April 30th, 2026</p>
             <a href="#rsvp" class="cta-btn">RSVP Now</a>
@@ -45,26 +44,29 @@
                 <h3>The Celebration</h3>
                 <p><strong>Venue:</strong> The Grand Navro</p>
                 <p><strong>Date:</strong> April 30, 2026</p>
-                <p><strong>Ceremony Start:</strong> 9:10 AM</p>
-                <p>Both Ceremony and Reception will be held here.</p>
+                <p><strong>Time:</strong> 9:10 AM</p>
                 <br>
                 <a href="https://maps.app.goo.gl/wvqkKBuuTy6fdocg7" target="_blank" class="map-btn">Get Directions</a>
             </div>
-            
             <div class="card">
                 <h3>Important Info</h3>
                 <p><strong>RSVP Deadline:</strong> April 3, 2026</p>
-                <p>Please kindly confirm your presence using the form below so we can arrange seating and catering.</p>
+                <p>Please confirm your presence below.</p>
             </div>
         </div>
     </section>
 
     <section id="rsvp">
         <h2>RSVP</h2>
-        <p>We can't wait to celebrate with you!</p>
+        <p id="rsvp-instruction">Will you be joining us?</p>
         
-        <div class="form-container">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmIU_UfMjvihRCwroBwZV7qIPCU24TIkRO2wfKff1WlwS9NQ/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div class="rsvp-buttons" id="rsvp-buttons-container">
+            <button id="accept-btn" class="rsvp-btn accept">Yes, I will be there</button>
+            <button id="decline-btn" class="rsvp-btn decline">Sorry, I can't make it</button>
+        </div>
+
+        <div id="response-message" style="display:none; margin-top:20px;">
+            <h3 id="msg-text"></h3>
         </div>
     </section>
 
