@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // --- CONFIGURATION ---
     // PASTE YOUR GOOGLE SCRIPT WEB APP URL HERE
-    const SCRIPT_URL = "YOUR_GOOGLE_SCRIPT_URL_HERE"; 
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwpy_snAeXIZ34AqVGkAo6ZSas3d10ipgdTAuKEEl9Qv4TzZEqTmrQzpnm5CaBhrsn2/exec"; 
 
     // --- COUNTDOWN TIMER ---
     const weddingDate = new Date("Apr 30, 2026 09:10:00").getTime();
